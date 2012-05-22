@@ -1,0 +1,11 @@
+Tired of your old and slow CPU? Upgrade it for free!
+
+% make;sudo insmod ./newcpu.ko name=Fuubar;grep 'model name' /proc/cpuinfo
+[...]
+make[1]: Leaving directory `/usr/src/linux-3.3.7-1'
+model name      : Fuubar
+model name      : Fuubar
+model name      : Fuubar
+model name      : Fuubar
+
+Sharing the beauty of http://thedailywtf.com/Articles/Confessions-The-Soft-CPU-Upgrade.aspx
